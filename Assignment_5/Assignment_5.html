@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+        }
+    </style>
+    <title>Assignment_5</title>
+</head>
+
+<body>
+    <div style="width: 100%; color: white; background-color: black; padding: 30px 0 0 0; height: 150px;">
+        <center>
+            <h1>Assignment_5</h1>
+        </center>
+        <center style="padding: 30px;">
+            <u>
+                <p style="font-size: medium; font-weight: 700;">This is the Assignment_5 page.</p>
+            </u>
+        </center>
+        <div style="display: flex; justify-content: center; gap: 40px; padding: 5px 0 0 0;">
+            <b><a style="color: chartreuse; text-decoration: none;" onmouseout="this.style.color='chartreuse';"
+                    onmouseover="this.style.color='white';" href="../index.html">All_Assignment</a></b>
+            <br>
+            <b><a style="color: chartreuse; text-decoration: none;" onmouseout="this.style.color='chartreuse';"
+                    onmouseover="this.style.color='white';"
+                    href="../Assignment_2/Assignment_2.html">Assignment_2</a></b>
+            <br>
+            <b><a style="color: chartreuse; text-decoration: none;" onmouseout="this.style.color='chartreuse';"
+                    onmouseover="this.style.color='white';"
+                    href="../Assignment_4/Assignment_4.html">Assignment_4</a></b>
+            <br>
+            <b><a style="color: chartreuse; text-decoration: none;" onmouseout="this.style.color='chartreuse';"
+                    onmouseover="this.style.color='white';" href="Assignment_5.html">Assignment_5</a></b>
+            <br>
+            <b><a style="color: chartreuse; text-decoration: none;" onmouseout="this.style.color='chartreuse';"
+                    onmouseover="this.style.color='white';" href="../Assignment_6/Assignment_6.html">Assignment_6</a></b>
+        </div>
+    </div>
+    <div class="first_image"style=":root --paper-bg: #fffef6; --outer-bg: #fbf8e8; --border: #000; --muted: #666; height: 100%; margin: 0; font-family: 'Georgia', 'Times New Roman', serif; background: linear-gradient(180deg, var(--outer-bg) 0%, #fff 60%); color: #111; padding: 20px 0 0 0;">
+        <center>
+            <h2>The output of the first image code</h2>
+        </center>
+        <div class="stage"
+            style="min-height: 100%; display: flex; align-items: center; justify-content: center; padding: 40px 20px; box-sizing: border-box;">
+            <div class="card"
+                style="width: 820px; background: var(--paper-bg); border: 3px solid var(--border); padding: 22px 30px; box-sizing: border-box; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);"
+                role="region" aria-label="Registration Form">
+                <h1 class="title"
+                    style="margin: 0 0 8px 0; text-align: center; font-size: 34px; letter-spacing: 0.6px;">Registration
+                    Form</h1>
+
+                <div class="subtitle"
+                    style="text-align: center; font-size: 13px; color: var(--muted); line-height: 1.3; margin-bottom: 18px;">
+                    Of course, all submitted information is kept in the strictest confidence.
+                    You always retain control of your information with D.W. Simpson &amp; Co.
+                </div>
+
+                <div class="highlight" style="text-align: center; font-weight: 700; margin-bottom: 18px;">Our services
+                    are always at no cost to you.</div>
+
+                <form style="font-size: 14px; line-height: 1.6; color: #111;">
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label for="name">Name:</label>
+                        <input id="name" name="name" type="text" placeholder="">
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label for="address">Address:</label>
+                        <input id="address" name="address" type="text" placeholder="">
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label for="city">City:</label>
+                        <input id="city" name="city" type="text" class="small" style="width: 100px; flex: unset;"
+                            placeholder="">
+                        <label style="width:120px; font-weight:600; margin-left:6px;">State/Province:</label>
+                        <input id="state" name="state" type="text" class="xsmall" style="width: 70px; flex: unset;"
+                            placeholder="">
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label for="zip">Zip Code:</label>
+                        <input id="zip" name="zip" type="text" class="small" style="width: 100px; flex: unset;"
+                            placeholder="">
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label for="country">Country:</label>
+                        <input id="country" name="country" type="text" placeholder="">
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label>Phone: (H)</label>
+                        <input id="phone_h" name="phone_h" type="text" class="small" style="width: 100px; flex: unset;"
+                            placeholder="">
+                        <label style="width:40px; font-weight:600;">Fax:</label>
+                        <input id="fax" name="fax" type="text" class="small" style="width: 100px; flex: unset;"
+                            placeholder="">
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label>Phone: (W)</label>
+                        <input id="phone_w" name="phone_w" type="text" class="small" style="width: 100px; flex: unset;"
+                            placeholder="">
+                        <div style="font-size:12px;color:#666;margin-left:6px;">(if able to speak freely)</div>
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="email" placeholder="">
+                    </div>
+
+                    <div class="row" style="display: flex; gap: 12px; align-items: center; margin-bottom: 10px;">
+                        <label for="company">Company Name:</label>
+                        <input id="company" name="company" type="text" placeholder="">
+                        <span class="optional"
+                            style="font-weight: 400; font-size: 12px; color: #666; margin-left: 8px;">(optional)</span>
+                    </div>
+
+                    <div class="region-line"
+                        style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <label for="region" style="width:140px;">Desired Region</label>
+                        <select id="region" name="region" style="width:160px;">
+                            <option>North America</option>
+                            <option>Europe</option>
+                            <option>Asia</option>
+                            <option>Other</option>
+                        </select>
+                        <label for="other-region" style="width:60px;">Other:</label>
+                        <input id="other-region" name="other-region" type="text" style="flex:1;" placeholder="">
+                    </div>
+
+                    <div style="margin-top:8px; font-weight:600;">Professional designations earned:</div>
+
+                    <div class="checkbox-grid"
+                        style="min-width: auto; display: flex; align-items: center; flex-wrap: wrap; gap: 12px 18px; margin-top: 8px; margin-bottom: 14px;"
+                        aria-label="Professional designations">
+                        <label><input type="checkbox" name="deg" value="College Student"> College Student</label>
+                        <label><input type="checkbox" name="deg" value="Actuarial Student"> Actuarial Student</label>
+                        <label><input type="checkbox" name="deg" value="ACAS"> ACAS</label>
+                        <label><input type="checkbox" name="deg" value="FCAS"> FCAS</label>
+                        <label><input type="checkbox" name="deg" value="ASA"> ASA</label>
+                        <label><input type="checkbox" name="deg" value="FSA"> FSA</label>
+                        <label><input type="checkbox" name="deg" value="EA"> EA</label>
+                        <label><input type="checkbox" name="deg" value="CFA"> CFA</label>
+                        <label><input type="checkbox" name="deg" value="MBA"> MBA</label>
+                        <label><input type="checkbox" name="deg" value="MAAA"> MAAA</label>
+                        <label><input type="checkbox" name="deg" value="FIA"> FIA</label>
+                        <label><input type="checkbox" name="deg" value="FCIA"> FCIA</label>
+                        <label><input type="checkbox" name="deg" value="FIAA"> FIAA</label>
+                        <label><input type="checkbox" name="deg" value="Financial Engineer"> Financial Engineer</label>
+                        <label><input type="checkbox" name="deg" value="MS"> M.S.</label>
+                        <label><input type="checkbox" name="deg" value="PhD"> Ph.D.</label>
+                        <label><input type="checkbox" name="deg" value="Data Mining"> Data Mining</label>
+                        <label><input type="checkbox" name="deg" value="Quant"> Quant</label>
+                    </div>
+
+                    <div class="other-designation"
+                        style="margin-top: 8px; display: flex; gap: 12px; align-items: center;">
+                        <label style="width:140px;">Other Designations:</label>
+                        <input id="other-designation" name="other-designation" type="text" placeholder="">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="second_image">
+        <center style="margin: 20px 0 25px 0;">
+            <h2>The output of the second image code</h2>
+        </center>
+        <div class="second_image_under_div"
+            style="font-family: Arial, sans-serif; border: 2px dotted #000080; border-radius: 7px; width: 62%; padding: 5px; margin: auto;">
+            <h2 style="text-align:center; color:#000080;">User Registration Form</h2>
+            <fieldset style="border: 1px dotted #000080; padding: 15px; margin-bottom: 20px;">
+                <legend style="font-weight: bold; color: #000080;">Personal Information</legend>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Name:</label>
+                <input type="text" style="width: 50%; padding: 5px;"><br>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Email Address:</label>
+                <input type="email" style="width: 50%; padding: 5px;"><br>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Password:</label>
+                <input type="password" style="width: 50%; padding: 5px;"><br>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Confirm Password:</label>
+                <input type="password" style="width: 50%; padding: 5px;">
+            </fieldset>
+            <fieldset style="border: 1px dotted #000080; padding: 15px; margin-bottom: 20px;">
+                <legend style="font-weight: bold; color: #000080;">Address Details</legend>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Address line one:</label>
+                <input type="text" style="width: 50%; padding: 5px;"><br>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Address line two:</label>
+                <input type="text" style="width: 50%; padding: 5px;"><br>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Town / City:</label>
+                <input type="text" style="width: 50%; padding: 5px;"><br>
+
+                <label style="display: inline-block; width: 200px; margin-bottom: 10px;">Zip / Post code:</label>
+                <input type="text" style="width: 50%; padding: 5px;">
+            </fieldset>
+
+            <div>
+                <button type="submit"
+                    style="background-color:#000080; color:white; padding:10px 20px; border:none; border-radius:5px; width: 100%; cursor:pointer;">
+                    Sign Up
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <div class="third_image">
+        <center style="margin: 20px 0 25px 0;">
+            <h2>The output of the Third_image code</h2>
+        </center>
+        <div class="third_image_under_div" style="font-family: Arial, sans-serif;">
+            <form style="width: 300px; border: 1px solid #ccc; padding: 10px; margin: auto; width: 61%;">
+                <fieldset style="margin-bottom: 10px;">
+                    <legend>Login</legend>
+                    <label style="display: block; margin-top: 5px;">Username*</label>
+                    <input type="text" style="width: 95%; padding: 5px; margin-bottom: 8px;">
+                    <label style="display: block;">Password*</label>
+                    <input type="password" style="width: 95%; padding: 5px;">
+                </fieldset>
+                <fieldset style="margin-bottom: 10px;">
+                    <legend>Gender*</legend>
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label style="margin-left: 10px;"><input type="radio" name="gender"> Female</label>
+                </fieldset>
+                <fieldset style="margin-bottom: 10px;">
+                    <legend>Programming Skill</legend>
+                    <label><input type="checkbox"> Java</label>
+                    <label style="margin-left: 10px;"><input type="checkbox" checked> C++</label>
+                    <label style="margin-left: 10px;"><input type="checkbox"> C#</label>
+                </fieldset>
+                <fieldset style="margin-bottom: 10px;">
+                    <legend>Fruit</legend>
+                    <label>Choose a fruit:
+                        <select style="margin-left: 5px;">
+                            <option>Banana</option>
+                            <option>Apple</option>
+                            <option>Mango</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <textarea placeholder="Enter your comment here"
+                    style="width: 99%; height: 60px; margin-bottom: 10px;"></textarea>
+                <div>
+                    <input type="submit" value="SEND" style="padding: 5px 15px; margin-right: 5px;">
+                    <input type="reset" value="RESET" style="padding: 5px 15px;">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="forth_image">
+        <center style="margin: 20px 0 25px 0;">
+            <h2>The output of the forth_image code</h2>
+        </center>
+        <div class="forth_image_under_div" style="font-family: Arial, sans-serif; background-color: #ffffff;">
+            <form
+                style="background-color: #e6e6e6; width: 50%; margin: 50px auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px #ccc;">
+
+                <h2 style="text-align: center; text-decoration: underline; margin-top: 0;">
+                    <b>Registration form</b>
+                </h2>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="fname" style="display: inline-block; width: 120px;">First Name</label>
+                    <input type="text" id="fname" name="fname" style="width: 500px; padding: 5px;">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="lname" style="display: inline-block; width: 120px;">Last Name</label>
+                    <input type="text" id="lname" name="lname" style="width: 500px; padding: 5px;">
+                </div>
+
+                <div style=" margin-bottom: 10px;">
+                    <label for="nname" style="display: inline-block; width: 120px;">Nick Name</label>
+                    <input type="text" id="nname" name="nname" style="width: 500px; padding: 5px;">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="email" style="display: inline-block; width: 120px;">e-mail</label>
+                    <input type="email" id="email" name="email" style="width: 500px; padding: 5px;">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="password" style="display: inline-block; width: 120px;">Password</label>
+                    <input type="password" id="password" name="password" style="width: 500px; padding: 5px;">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="dob" style="display: inline-block; width: 120px;">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" style="width: 500px; padding: 5px;">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label style="display: inline-block; width: 120px;">Gender</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="others">Others
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="mobile" style="display: inline-block; width: 120px;">Mobile</label>
+                    <input type="text" id="mobile" name="mobile" style="width: 500px; padding: 5px;">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="address"
+                        style="display: inline-block; width: 120px; vertical-align: top;">Address</label>
+                    <textarea id="address" name="address" rows="4" style="width: 500px; padding: 5px;"></textarea>
+                </div>
+
+                <div style="padding-left:122px; margin-top: 15px;">
+                    <input type="submit" value="submit" style="width: 46%; padding: 5px 10px; margin-right: 5px;">
+                    <input type="reset" value="reset" style="width: 46%; padding: 5px 10px;">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="fifth_image">
+        <center style="margin: 20px 0 25px 0;">
+            <h2>The output of the fifth_image code</h2>
+        </center>
+        <div class="fifth_image_under_div"
+            style="font-family: Arial, sans-serif; width: 50%; margin: auto; background-color: #ffffff;">
+            <form style=" margin: 40px auto; border: 2px solid #999; padding: 10px;">
+                <h3 style="text-align: center; margin-bottom: 20px;">Feedback Form</h3>
+                <fieldset style="padding: 15px; margin-bottom: 20px; border: 1px solid #999;">
+                    <legend style="font-weight: bold;">Login details</legend>
+
+                    <div style="margin-bottom: 10px;">
+                        <label for="name" style="display: inline-block; width: 100px;">Name:</label>
+                        <input type="text" id="name" name="name" style="width: 200px; padding: 5px;">
+                    </div>
+
+                    <div style="margin-bottom: 10px;">
+                        <label for="email" style="display: inline-block; width: 100px;">Email:</label>
+                        <input type="email" id="email" name="email" style="width: 200px; padding: 5px;">
+                    </div>
+
+                    <div style="margin-bottom: 10px;">
+                        <label for="password" style="display: inline-block; width: 100px;">Password:</label>
+                        <input type="password" id="password" name="password" style="width: 200px; padding: 5px;">
+                    </div>
+                </fieldset>
+
+                <fieldset style="padding: 15px; border: 1px solid #999;">
+                    <legend style="font-weight: bold;">Your feedback</legend>
+
+                    <p style="margin-bottom: 8px;">Please check all the emotions that apply to you:</p>
+                    <div style="margin-left: 20px;">
+                        <div><label>Angry <input type="checkbox" name="emotion" value="angry"></label></div>
+                        <div><label>Sad <input type="checkbox" name="emotion" value="sad"></label></div>
+                        <div><label>Happy <input type="checkbox" name="emotion" value="happy"></label></div>
+                        <div><label>Ambivalent <input type="checkbox" name="emotion" value="ambivalent"></label></div>
+                    </div>
+
+                    <p style="margin-top: 15px;">How satisfied were you with our service?</p>
+                    <div style="margin-left: 20px;">
+                        <label><input type="radio" name="satisfaction" value="very satisfied"> Very
+                            satisfied</label><br>
+                        <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label><br>
+                        <label><input type="radio" name="satisfaction" value="neutral"> Neutral</label><br>
+                        <label><input type="radio" name="satisfaction" value="unsatisfied"> Unsatisfied</label><br>
+                        <label><input type="radio" name="satisfaction" value="very unsatisfied"> Very
+                            unsatisfied</label>
+                    </div>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+    <div class="sixth_image">
+        <center style="margin: 20px 0 25px 0;">
+            <h2>The output of the fifth_image code</h2>
+        </center>
+        <div class="sixth_image_under_div" style="font-family: Arial, sans-serif;">
+            <form style="width: 60%; border: 1px solid #ccc; padding: 20px; margin: auto; background-color: #f9f9f9;">
+                <fieldset style="border: 1px solid #1a73e8; padding: 10px; margin-bottom: 20px;">
+                    <legend style="font-weight: bold; color: #000;">The First Section</legend>
+
+                    <fieldset style="border: 1px solid #1a73e8; padding: 10px; margin-bottom: 10px;">
+                        <legend style="color: #000;">The First Subsection</legend>
+                        <label for="f1s" style="display: block; margin-bottom: 5px;">field1</label>
+                        <input type="text" id="f1s" style="width: 80%; padding: 5px; border: 1px solid #ccc;">
+                    </fieldset>
+
+                    <label for="f1" style="display: block; margin-bottom: 5px;">field1</label>
+                    <input type="text" id="f1" style="width: 80%; padding: 5px; border: 1px solid #ccc;">
+                </fieldset>
+
+                <fieldset style="border: 1px solid #1a73e8; padding: 10px;">
+                    <legend style="font-weight: bold; color: #000;">Section II</legend>
+
+                    <fieldset style="border: 1px solid #1a73e8; padding: 10px; margin-bottom: 10px;">
+                        <legend style="color: #000;">Section II-A</legend>
+                        <label for="f2a" style="display: block; margin-bottom: 5px;">field1</label>
+                        <input type="text" id="f2a" style="width: 80%; padding: 5px; border: 1px solid #ccc;">
+                    </fieldset>
+
+                    <fieldset style="border: 1px solid #1a73e8; padding: 10px;">
+                        <legend style="color: #000;">Section II-B</legend>
+                        <label for="f2b" style="display: block; margin-bottom: 5px;">field1</label>
+                        <input type="text" id="f2b" style="width: 80%; padding: 5px; border: 1px solid #ccc;">
+                    </fieldset>
+                </fieldset>
+
+                <button type="submit"
+                    style="margin-top: 20px; padding: 5px 15px; background-color: #f2f2f2; border: 1px solid #888; cursor: pointer;">
+                    Go! Go! Go!
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
